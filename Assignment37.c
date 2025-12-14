@@ -242,7 +242,6 @@ void StrRev(char*str)
         end--;
     }
 }
-
 int main()
 {
     char arr[20];
