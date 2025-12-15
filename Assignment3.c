@@ -109,7 +109,7 @@ int main()
 ///////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name:   ChkVowel
-// Description:     It is use to convert case of that character.
+// Description:     It is use to check character is vowel or not.
 // Input:           Char
 // Output:          Bool
 // Author:          Jyoti Akash Gudpale
