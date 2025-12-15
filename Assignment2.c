@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name:   Accept
-// Description:     It is use to print n number of *
+// Description:     It is use to print n number of * using for loop.
 // Input:           Int
 // Output:          Void
 // Author:          Jyoti Akash Gudpale
@@ -15,7 +15,7 @@ void Accept(int iNo)
     int iValue = 0;
 
     for(iValue = 0; iValue < iNo; iValue++)
-    printf("*");
+    printf("* ");
 }
     int main()
 {
@@ -33,7 +33,7 @@ void Accept(int iNo)
 ///////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name:   Accept
-// Description:     It is use to print n number of *
+// Description:     It is use to print n number of * using while loop.
 // Input:           Int
 // Output:          Void
 // Author:          Jyoti Akash Gudpale
@@ -49,7 +49,7 @@ void Accept(int iNo)
 
     while(iNo > iValue)
     {
-        printf("*");
+        printf("* ");
         iNo--;
     }
 }
@@ -69,7 +69,7 @@ int main()
 ///////////////////////////////////////////////////////////////////////////////////////
 //
 // Function Name:   Display
-// Description:     It is use to Hello or Demo if No is less than 10.
+// Description:     If No is less than 10 print Hello & if No greater than 10 print Demo.
 // Input:           Int
 // Output:          Void
 // Author:          Jyoti Akash Gudpale
@@ -117,7 +117,7 @@ void Display(int iNo, int iFrequency)
 int i = 0;
 
 for(i = 0;i < iFrequency; i++)
-printf("%d",iNo);
+printf("%d ",iNo);
 }
 int main()
 {
